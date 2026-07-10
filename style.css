@@ -1,0 +1,86 @@
+/* Base du site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #111827;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+
+/* Menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Sections */
+main {
+    padding: 50px;
+}
+
+section {
+    background: #1e293b;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+
+/* Bouton */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+
+/* Liste */
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+
+/* Liens */
+a {
+    color: #60a5fa;
+}
+
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+}
